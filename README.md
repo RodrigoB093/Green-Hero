@@ -11,4 +11,5 @@
 - [Referencia 1](https://github.com/SachinSahu431/OpenCV-Ecology-Game)
 
 ## Los artículos de la guía que me ayudarán durante el desarrollo
-Crear juegos con python y pygame [Link]([https://enlace_al_artículo](https://inventwithpython.com/makinggames.pdf?utm_source=chatgpt.com))
+Crear juegos con python y pygame [Link](https://enlace_al_artículo](https://inventwithpython.com/makinggames.pdf?utm_source=chatgpt.com
+)
