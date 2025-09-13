@@ -77,7 +77,7 @@ retos = [
 ]
 
 ultimo_reto = {}
-eco_puntos = {}  # 🔥 Cambiado de 'puntos' a 'eco_puntos'
+eco_puntos = {}  
 
 @bot.command()
 async def reto(ctx):
@@ -95,25 +95,23 @@ async def reto(ctx):
 @bot.command()
 async def cumpli(ctx):
     user = ctx.author
-    # 🔥 Usar el nuevo nombre del diccionario
+    
     eco_puntos[user.id] = eco_puntos.get(user.id, 0) + 10
     await ctx.send(f"✅ {user.mention} cumplió el reto y ahora tiene {eco_puntos[user.id]} eco-puntos.")
 
 @bot.command()
 async def puntos(ctx):
     user = ctx.author.id
-    # 🔥 Usar el nuevo nombre del diccionario
+    
     total = eco_puntos.get(user, 0)
     await ctx.send(f"🏆 {ctx.author.mention}, tienes **{total} eco-puntos** acumulados.")
 
 @bot.command()
 async def ranking(ctx):
-    # 🔥 Usar el nuevo nombre del diccionario
     if not eco_puntos:
         await ctx.send("📊 Aún no hay eco-puntos registrados.")
         return
 
-    # 🔥 Usar el nuevo nombre del diccionario
     top = sorted(eco_puntos.items(), key=lambda x: x[1], reverse=True)
     mensaje = "🌟 **Ranking de Guardianes del Planeta** 🌟\n"
     for i, (user_id, score) in enumerate(top[:10], start=1):
