@@ -14,7 +14,8 @@ Este proyecto busca generar un impacto positivo en el medio ambiente a través d
 ## 📚 Bibliotecas utilizadas
 - discord.py → para crear los comandos y manejar el bot.  
 - random → para los retos diarios aleatorios.  
-- datetime → para controlar la fecha y reinicio de los retos.  
+- datetime → para controlar la fecha y reinicio de los retos.
+- sqlite3 → creación y manejo de bases de datos.
 
 ## 🔗 Referencias útiles
 - [Ejemplo de bot en Python](https://github.com/Rapptz/discord.py)  
