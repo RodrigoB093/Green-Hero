@@ -1,8 +1,12 @@
 # ♻ Green-Hero Bot
 
+## Autor
+**Rodrigo Alberto Barrera Flores**
+
 ## 🌱 Descripción del proyecto
 Green-Hero es un bot educativo de **Discord** que busca concientizar sobre el cuidado del medio ambiente.  
 A través de **retos diarios**, **sistema de puntos** y la posibilidad de conocer **datos curiosos sobre el entorno**, el bot motiva a los usuarios a aprender y participar en actividades ecológicas de manera divertida e interactiva.
+Este proyecto busca generar un impacto positivo en el medio ambiente a través de la **tecnología y el juego**.
 
 ## ⚙ Tipo de proyecto
 > Discord Bot + Juego educativo
